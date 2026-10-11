@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sky Rise Technology | Digital Marketing &amp; Cybersecurity</title>
+  <meta name="description" content="Sky Rise Technology helps businesses grow with digital marketing and stay safe with website security checks and bug testing.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="Sky Rise Technology home">
+        <img src="assets/favicon.svg" alt="" width="34" height="34">
+        <span>Sky Rise Technology</span>
+      </a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" class="nav">
+        <a href="#services">Services</a>
+        <a href="#process">How we work</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-small">Get a quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>Get found online. Stay safe while you grow.</h1>
+          <p class="lead">Sky Rise Technology runs your digital marketing and checks your website for security bugs, so customers can find you and trust you.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Talk to our team</a>
+            <a href="#services" class="btn btn-ghost">See what we do</a>
+          </div>
+        </div>
+
+        <div class="checker" id="checker">
+          <h2>Quick website check</h2>
+          <p>Enter your website address to see the basics, then ask us for a full security audit.</p>
+          <form id="checkForm" novalidate>
+            <label for="siteUrl">Website address</label>
+            <div class="field-row">
+              <input id="siteUrl" name="siteUrl" type="text" placeholder="example.com" autocomplete="url" required>
+              <button type="submit" class="btn">Check</button>
+            </div>
+            <p class="field-error" id="checkError" role="alert" hidden></p>
+          </form>
+          <ul class="results" id="results" aria-live="polite"></ul>
+          <a href="#contact" class="btn btn-ghost full" id="auditBtn" hidden>Request a full audit</a>
+        </div>
+      </div>
+      <div class="skyline" aria-hidden="true"></div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <h2 class="section-title">What we do</h2>
+        <p class="section-intro">Two jobs, one team: bring more people to your business, and keep your website safe when they arrive.</p>
+
+        <div class="service-list">
+          <article class="service">
+            <h3>Digital marketing</h3>
+            <p>Plans and campaigns that bring the right customers to you, tracked so you can see what is working.</p>
+            <ul class="tags"><li>SEO</li><li>Google &amp; Meta ads</li><li>Social media</li><li>Email campaigns</li></ul>
+          </article>
+          <article class="service featured">
+            <h3>Cybersecurity and bug check</h3>
+            <p>We test your website the way an attacker would, find weak spots, and give you a clear fix list in plain language.</p>
+            <ul class="tags"><li>Vulnerability scan</li><li>Bug testing</li><li>SSL and headers review</li><li>Malware cleanup</li></ul>
+          </article>
+          <article class="service">
+            <h3>Website design and development</h3>
+            <p>Fast, mobile-friendly websites built to turn visitors into enquiries.</p>
+            <ul class="tags"><li>Business sites</li><li>Online stores</li><li>Landing pages</li></ul>
+          </article>
+          <article class="service">
+            <h3>Support and maintenance</h3>
+            <p>Updates, backups, uptime monitoring and quick help when something breaks.</p>
+            <ul class="tags"><li>Monthly care plans</li><li>Backups</li><li>Monitoring</li></ul>
+          </article>
+          <article class="service">
+            <h3>Branding and content</h3>
+            <p>Logos, graphics, posts and writing that make your business look consistent everywhere.</p>
+            <ul class="tags"><li>Logo and identity</li><li>Social graphics</li><li>Blog and copy</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section-dark" id="process">
+      <div class="wrap">
+        <h2 class="section-title">How we work</h2>
+        <ol class="steps">
+          <li><h3>Listen</h3><p>We learn about your business, customers and goals in a short call.</p></li>
+          <li><h3>Audit</h3><p>We review your website, search presence and security.</p></li>
+          <li><h3>Plan and build</h3><p>You get a clear plan with prices. We start once you approve it.</p></li>
+          <li><h3>Report and improve</h3><p>Monthly reports show results, and we keep improving.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div>
+          <h2 class="section-title">About Sky Rise Technology</h2>
+          <p>We are a small team that mixes marketing skills with security knowledge. Most agencies do one or the other. We do both, so the website that brings you customers is also one you can trust.</p>
+          <p>Replace this text with your own story: when you started, who you help, and where you work.</p>
+        </div>
+        <ul class="promises">
+          <li><strong>Plain language.</strong> No jargon in reports or invoices.</li>
+          <li><strong>Fixed quotes.</strong> You know the price before we start.</li>
+          <li><strong>Private by default.</strong> Security findings are shared only with you.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-tint" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2 class="section-title">Tell us what you need</h2>
+          <p>We reply within one working day.</p>
+          <p class="contact-lines">
+            Email: <a href="mailto:hello@skyrisetechnology.com">hello@skyrisetechnology.com</a><br>
+            Phone: <a href="tel:+9770000000000">+977 000 000 0000</a>
+          </p>
+        </div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="service">What do you need?</label>
+          <select id="service" name="service">
+            <option>Digital marketing</option>
+            <option>Security and bug check</option>
+            <option>Website design</option>
+            <option>Support and maintenance</option>
+            <option>Something else</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <p class="field-error" id="formError" role="alert" hidden></p>
+          <button type="submit" class="btn">Send message</button>
+          <p class="form-ok" id="formOk" role="status" hidden>Thanks. Your email app should open with the message ready to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <p>&copy; <span id="year"></span> Sky Rise Technology. All rights reserved.</p>
+      <p><a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
